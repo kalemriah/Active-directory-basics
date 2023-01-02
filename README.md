@@ -1,4 +1,4 @@
-# Active-Directory-Basics-Deep-Dive
+# Active-Directory-Basics
 Futher understanding Windows Active Directory for work/knowledge skillsets 
 
 <h2>Prerequisites </h2> 
@@ -16,14 +16,11 @@ Futher understanding Windows Active Directory for work/knowledge skillsets
 What is an Active Directory? What can it be used for? <br/>
 - An Active Directory is an essential tool/service made by microsoft that includes a ton of services, tools, and resources to admin or connect users within a network. Active Directory is a great tool/service for coprerations to promote efficientcy within their network. <br/>
 
-1.)Install Windows Adminastrative tools to remotely control the AD from user machine if not already pre-installed onto computer.
 
 What is a Domain?<br/>
 -	A domain is the host server. A domain is similar to how somebody hosts a party. the domain would be the party host with all the control to remove or invite people ect. and the guests would be simialr to the users. Alternativly can be though of like a Country.<br/>
 What is an Orginaztional Unit?
 -Basically the 'folders' of an Active Directory. Can be used to Subscriptions, Security, Permissions. Litersally used to 'Orginaize' a user or 'Unit' into its apropriate category.<br/>
-
-2.) Turning off firewall on both VMs for the sake of the lab. This will allow the VMs to communicate over the virtual network.<br/>
 	-
 
 3.) Add/Create within domain a User by right clicking and adding a host into the 'Computers' OU.<br/>
