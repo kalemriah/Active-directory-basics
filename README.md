@@ -1,15 +1,9 @@
 # Active-Directory-Basics
 Futher understanding Windows Active Directory for work/knowledge skillsets 
 
-<h2>Prerequisites </h2> 
-<p align="left">
-- Microsoft Azure - One resource group running two diffrent VMs and a Virtual Network. One VM will be a Windows Server. The other VM will be a Windows user on that server both will be connected to virtual network.<br/>
-- Remote Desktop Protocol will need to be open on these VMs.<br/>
-- Windows Remote Desktop Connection App will be needed to virtually use this computers.<br/>
-
 <h2>Topics</h2>
 <p align="left">
-- I will be briefly explaining my understanding of Active Directory, DHCP, DNS<br/>
+-Active Directory, DHCP, DNS<br/>
 
 <h2> Active Directory</h2><br/>
 <p align="left">
@@ -18,14 +12,9 @@ What is an Active Directory? What can it be used for? <br/>
 
 
 What is a Domain?<br/>
--	A domain is the host server. A domain is similar to how somebody hosts a party. the domain would be the party host with all the control to remove or invite people ect. and the guests would be simialr to the users. Alternativly can be though of like a Country.<br/>
+- A domain is the host server. A domain is similar to how somebody hosts a party. the domain would be the party host with all the control to remove or invite people ect. and the guests would be simialr to the users. Alternativly can be though of like a Country.<br/>
 What is an Orginaztional Unit?
 -Basically the 'folders' of an Active Directory. Can be used to Subscriptions, Security, Permissions. Litersally used to 'Orginaize' a user or 'Unit' into its apropriate category.<br/>
-	-
-
-3.) Add/Create within domain a User by right clicking and adding a host into the 'Computers' OU.<br/>
-	-On users PC go to system advance setting and rename the PC and add to domain. then from the domain refresh and check for the PC.<br/>
-	-Can be tested with 'ipconfig /all', Check the host name and the DNS<br/>
 
 How would you manage a user's acccount?<br/>
 - Right clicking on the user's host name will allow an admin to use Computer Management tools such as Task Schedueler, Event Viewer, Windows logs, View Folders, Check Performane and more.<br/>
@@ -47,9 +36,7 @@ How would you create a user from the domain?<br/>
 <h2>DHCP</h2><br/>
 <p align="left">
 What is a DHCP? What can it be used for?<br/>
--
-
-**Within the DHCP tool > domain name > contains the scopes of the IPv4 and IPv6 names.<br/>
+- 
 
 What is a scope?<br/>
 - Basically the range of IP's used for a domain server. A scope range could be between 192.1.1.0 - 192.1.1.100 for example.<br/>
@@ -61,9 +48,6 @@ What is an adress lease?<br/>
 
 What is reservation?<br/>
 - Kinda like a static IP. Simply reserving an IP adress to connect to the DHCP. MAC address(Physical address) used to create a reservation. For example a printer would need a reservation IP. <br/>
-
-1.) Creating a Reservation for a printer<br/>
-	-Right click on reservations and click add. Type printer for name and use an IP within the Adress pool. i.e 192.1.1.50. Then type the printers MAC address(no spaces or dashes). Type description of 'Printer's IP Adress'.<br/>
 
 <h2>DNS</h2><br/>
 <p align="left">
