@@ -1,5 +1,5 @@
 # Active-Directory-Basics
-Futher understanding Windows Active Directory for work/knowledge skillsets 
+Futher understanding Windows Active Directory for knowledge skillsets 
 
 <h2>Topics</h2>
 <p align="left">
@@ -7,6 +7,7 @@ Futher understanding Windows Active Directory for work/knowledge skillsets
 
 <h2> Active Directory</h2><br/>
 <p align="left">
+
 What is an Active Directory? What can it be used for? <br/>
 - An Active Directory is an essential tool/service made by microsoft that includes a ton of services, tools, and resources to admin or connect users within a network. Active Directory is a great tool/service for coprerations to promote efficientcy within their network. <br/>
 
@@ -35,8 +36,9 @@ How would you create a user from the domain?<br/>
 
 <h2>DHCP</h2><br/>
 <p align="left">
+ 
 What is a DHCP? What can it be used for?<br/>
-- 
+- asdfghjk
 
 What is a scope?<br/>
 - Basically the range of IP's used for a domain server. A scope range could be between 192.1.1.0 - 192.1.1.100 for example.<br/>
@@ -51,8 +53,9 @@ What is reservation?<br/>
 
 <h2>DNS</h2><br/>
 <p align="left">
+
 What is a DNS? What is it used for?<br/>
--
+- Domain Name System is a protocol that turns IP addresses into 'readable' addresses. For example, nobody is going to remeber that 8.8.8.8 is the IP address for google. They're going to type in 'google.com'. This 'google.com' = 8.8.8.8 is an example of DNS in action. So, a way you would use DNS in a domain is in a situation where you have a ton of devices within a domain and you have no way of remembering all of the IP addresses so you come up with a DNS naming system to easily access the devices from the domain controller.
 
 **useful when going through a users files. If there was no DNS setup within the domain for the user, you would have to type out the IP directly on the searh bar to get to the users files rather than just '/home/user/files'<br/>
 
