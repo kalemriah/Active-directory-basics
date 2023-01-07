@@ -38,7 +38,7 @@ How would you create a user from the domain?<br/>
 <p align="left">
  
 What is a DHCP? What can it be used for?<br/>
-- asdfghjk
+-  Dynamic Host Control Protocol. DHCP is used to automatically assign IP addresses within a domain/network. So, for example say you have 4 different devices on a network. The DHCP will automatically assign the devices different IP addresses so that they can communicate over the network without overlapping. So, device 1's IP could be 192.168.1.1, device 2's IP = 192.168.1.2, device 3 = 192.168.1.3, device 4 = 192.168.1.4. This protocol is extremely important because without it you would have to manually configure IPs on a network. Imagine having to configure hundreds of IPs for a corporate network without DHCP and you'll begin to see how necessary this protocol is to a network.
 
 What is a scope?<br/>
 - Basically the range of IP's used for a domain server. A scope range could be between 192.1.1.0 - 192.1.1.100 for example.<br/>
@@ -59,6 +59,6 @@ What is a DNS? What is it used for?<br/>
 
 **useful when going through a users files. If there was no DNS setup within the domain for the user, you would have to type out the IP directly on the searh bar to get to the users files rather than just '/home/user/files'<br/>
 
-**Within AD DNS takes place in 'Forwar Lookup Zones', happens automatically within this tool<br/>
+**Within AD DNS takes place in 'Forward Lookup Zones', happens automatically within this tool<br/>
 
 ** ipconfig /flushdns flushes the dns to reset dns for a user. Do not flush dns on servers or printers or anything with a reservation basically. Does take  a mintue to refresh.<br/>
