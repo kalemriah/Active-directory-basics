@@ -3,7 +3,7 @@ Futher understanding Windows Active Directory for knowledge skillsets
 
 <h2>Topics</h2>
 <p align="left">
--Active Directory, DHCP, DNS<br/>
+-Active Directory, DHCP, DNS. This is a short summary of these topics and some examples of how they might be used.<br/>
 
 <h2> Active Directory</h2><br/>
 <p align="left">
