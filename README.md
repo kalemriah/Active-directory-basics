@@ -14,8 +14,9 @@ What is an Active Directory? What can it be used for? <br/>
 
 What is a Domain?<br/>
 - A domain is the host server. A domain is similar to how somebody hosts a party. the domain would be the party host with all the control to remove or invite people ect. and the guests would be simialr to the users. Alternativly can be though of like a Country.<br/>
-What is an Orginaztional Unit?
--Basically the 'folders' of an Active Directory. Can be used to Subscriptions, Security, Permissions. Litersally used to 'Orginaize' a user or 'Unit' into its apropriate category.<br/>
+What is an Orginaztional Unit?<br/>
+
+- Basically the 'folders' of an Active Directory. Can be used to Subscriptions, Security, Permissions. Litersally used to 'Orginaize' a user or 'Unit' into its apropriate category.<br/>
 
 How would you manage a user's acccount?<br/>
 - Right clicking on the user's host name will allow an admin to use Computer Management tools such as Task Schedueler, Event Viewer, Windows logs, View Folders, Check Performane and more.<br/>
